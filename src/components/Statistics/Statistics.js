@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import s from './Statistic.module.css';
 import randomColor from './randomColor';
 
-function Statistic({ title, stats }) {
+function Statistics({ title, stats }) {
   return (
     <section className={s.statistics}>
       {title && <h2 className={s.title}>{title}</h2>}
@@ -22,7 +22,7 @@ function Statistic({ title, stats }) {
   );
 }
 
-Statistic.propTypes = {
+Statistics.propTypes = {
   title: PropTypes.string,
   stats: PropTypes.arrayOf(
     PropTypes.shape({
@@ -33,4 +33,4 @@ Statistic.propTypes = {
   ),
 };
 
-export default Statistic;
+export default Statistics;
