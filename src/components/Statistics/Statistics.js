@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import s from './Statistic.module.css';
+import s from './Statistics.module.css';
 import randomColor from './randomColor';
 
 function Statistics({ title, stats }) {
