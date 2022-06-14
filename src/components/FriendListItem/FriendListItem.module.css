@@ -10,12 +10,12 @@
 
 .statusOnline {
   composes: status;
-  background-color: #19f120;
+  background-color: #a118a5;
 }
 
 .statusOffline {
   composes: status;
-  background-color: red;
+  background-color: rgb(243, 8, 32);
 }
 
 .avatar {
